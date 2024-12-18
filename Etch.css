@@ -1,0 +1,29 @@
+.big_boy {
+    display: flex;
+    flex: 1 0 auto;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-self: center;
+    border: 5px;
+    padding: 100px;
+    margin: 5px;
+}
+
+.smol {
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row wrap;
+    border: 1px;
+    padding: 10px;
+    margin: 0px;
+    border-style: solid;
+    border-color: gray;
+    justify-content: center;
+}
+
+.grdbtn {
+    display: flex;
+    align-self: center;
+    margin-left: 48%;
+    margin-right: 50%;
+}
